@@ -1,0 +1,15 @@
+{
+    "alias": "push.phar",
+    "chmod": "0755",
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["Tests"],
+            "in": "vendor"
+        }
+    ],
+    "git-version": "package_version",
+    "main": "bin/push",
+    "output": "push.phar",
+    "stub": true
+}
