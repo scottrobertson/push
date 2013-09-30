@@ -18,8 +18,15 @@ if (! isset($argv[1])) {
 }
 
 $pushover->message = $argv[1];
+
+// If its a URL
 if(filter_var($argv[1], FILTER_VALIDATE_URL)) {
     $pushover->url = $argv[1];
+}
+
+// If its a file, get the contents
+if (is_file($argv[1])) {
+    $pushover->message = file_get_contents($argv[1]);
 }
 
 $push = $pushover->push($config['token']);
