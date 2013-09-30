@@ -13,6 +13,10 @@ $pushover = new \Scottymeuk\Pushover\Client([
     'token' => $config['apikey'],
 ]);
 
+if (! isset($argv[1])) {
+    exit('You must supply 1 argument.');
+}
+
 $pushover->message = $argv[1];
 if(filter_var($argv[1], FILTER_VALIDATE_URL)) {
     $pushover->url = $argv[1];
