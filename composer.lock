@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "9ebd759cf012adf4ab9d2bdb349c982d",
+    "packages": [
+        {
+            "name": "scottymeuk/pushover",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scottrobertson/pushover.git",
+                "reference": "fb7008893e1314aaadc5927ef85b133dc1d512b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scottrobertson/pushover/zipball/fb7008893e1314aaadc5927ef85b133dc1d512b8",
+                "reference": "fb7008893e1314aaadc5927ef85b133dc1d512b8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": [
+                        "src",
+                        "tests"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Robertson",
+                    "email": "scottymeuk@gmail.com",
+                    "homepage": "http://scottrobertson.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple pushover.net library",
+            "homepage": "http://github.com/scottymeuk/pushover",
+            "keywords": [
+                "push notifications",
+                "pushover"
+            ],
+            "time": "2013-09-25 14:35:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "scottymeuk/pushover": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
