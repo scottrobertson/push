@@ -18,3 +18,7 @@ push http://longdomainicantbebotheredtotypeonphone.com
     "token" : ""
 }
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/scottrobertson/push/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
